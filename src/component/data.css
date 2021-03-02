@@ -1,0 +1,40 @@
+#add{
+    text-align: center;
+    font-size:1.7rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+input{
+    background:none;
+    border:1px solid whitesmoke;
+    height:1.5rem;width:13rem;
+    cursor:copy;
+    color:whitesmoke;
+}
+input:focus{
+    outline: none;
+}
+button{
+width:5rem;
+height:2rem;
+background:none;
+border:3px solid whitesmoke;
+color:whitesmoke;
+font-size:1rem;
+font-weight:bold;
+cursor:pointer;
+transition:all 0.5s ease;
+}
+button:hover{
+    color:slategrey;
+    background: whitesmoke;
+}
+button:focus{
+    outline:none;
+}
+#text{
+    display: none;
+    margin-left: 163px;
+    width: 18rem;
+    height: 8rem;
+    overflow: auto;
+}
